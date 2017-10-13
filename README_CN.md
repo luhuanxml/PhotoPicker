@@ -1,6 +1,6 @@
-## RxPicker
+## RxPicker 抄袭 rxpicker
 
-基于 RxJava 的 Android 图片选择器.
+基于 ***RxJava1*** 的 Android 图片选择器.
 
 ## 特征
 
@@ -48,11 +48,7 @@ RxPicker.init(new GlideImageLoader());
 
 - 图片单选
 ```
-RxPicker.of().start(this).subscribe(new Consumer<List<ImageItem>>() {
-        @Override public void accept(@NonNull List<ImageItem> imageItems) throws Exception {
-          //得到结果
-        }
-      });
+RxPicker.of().start(this).subscribe();
 ```
 
 - 图片多选
@@ -63,9 +59,5 @@ RxPicker.of()
           .camera(true)
           .limit(3,9)
           .start(this)
-          .subscribe(new Consumer<List<ImageItem>>() {
-            @Override public void accept(@NonNull List<ImageItem> imageItems) throws Exception {
-              //得到结果
-            }
-          });
+          .subscribe();
 ```
