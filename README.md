@@ -1,5 +1,5 @@
-# RxPicker
-The ImageSelect tool based on RxJava.
+# PhotoPicker copy rxpicker  
+The ImageSelect tool based on **RxJava1**.
 
 [中文文档](./README_CN.md)
 
@@ -19,7 +19,7 @@ The ImageSelect tool based on RxJava.
 1.Add gradle:
 
 ```
-compile 'com.caimuhao:rxpicker:1.1.4'
+compile 'com.luhuanxml:rxpicker:1.1'
 ```
 
 2.Extends `RxPickerImageLoader` create custom  ImageLoader
@@ -49,11 +49,7 @@ RxPicker.init(new GlideImageLoader());
 -  Single Image
 
 ```
-RxPicker.of().start(this).subscribe(new Consumer<List<ImageItem>>() {
-        @Override public void accept(@NonNull List<ImageItem> imageItems) throws Exception {
-          //Get the result
-        }
-      });
+RxPicker.of().start(this).subscribe();
 ```
 
 - Multiple Images
@@ -64,9 +60,5 @@ RxPicker.of()
           .camera(true)
           .limit(3,9)
           .start(this)
-          .subscribe(new Consumer<List<ImageItem>>() {
-            @Override public void accept(@NonNull List<ImageItem> imageItems) throws Exception {
-              //Get the result
-            }
-          });
+          .subscribe();
 ```
