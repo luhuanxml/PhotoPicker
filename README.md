@@ -1,5 +1,5 @@
-# RxPicker
-The ImageSelect tool based on RxJava.
+# PhotoPicker copy rxpicker  
+The ImageSelect tool based on **RxJava1**.
 
 [中文文档](./README_CN.md)
 
@@ -19,7 +19,7 @@ The ImageSelect tool based on RxJava.
 1.Add gradle:
 
 ```
-compile 'com.caimuhao:rxpicker:1.1.4'
+compile 'com.luhuanxml:rxpicker:1.1'
 ```
 
 2.Extends `RxPickerImageLoader` create custom  ImageLoader
