@@ -13,17 +13,17 @@
       >
 
     <activity
-        android:name=".ui.RxPickerActivity"
+        android:name="com.luhuan.rxpicker.ui.RxPickerActivity"
         android:launchMode="singleTop"
         android:theme="@style/RxPicker.AppTheme"/>
 
     <activity
-        android:name=".ui.PreviewActivity"
+        android:name="com.luhuan.rxpicker.ui.PreviewActivity"
         android:launchMode="singleTop"
         android:theme="@style/RxPicker.AppTheme"/>
 
     <provider
-        android:name=".utils.RxPickerProvider"
+        android:name="com.luhuan.rxpicker.utils.RxPickerProvider"
         android:authorities="${applicationId}.provider"
         android:exported="false"
         android:grantUriPermissions="true">

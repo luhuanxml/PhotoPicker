@@ -3,7 +3,7 @@ package com.caimuhao.sample;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.caimuhao.rxpicker.utils.RxPickerImageLoader;
+import com.luhuan.rxpicker.utils.RxPickerImageLoader;
 
 /**
  * @author Smile

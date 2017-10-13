@@ -1,7 +1,7 @@
 package com.caimuhao.sample;
 
 import android.app.Application;
-import com.caimuhao.rxpicker.RxPicker;
+import com.luhuan.rxpicker.RxPicker;
 
 /**
  * @author Smile
