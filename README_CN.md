@@ -19,7 +19,7 @@
 1.添加 gradle 引用
 
 ```
-compile 'com.caimuhao:rxpicker:1.1'
+compile 'com.github.luhuanxml:PhotoPicker:2.0.0'
 ```
 
 2.继承 `RxPickerImageLoader` 创建自定义的图片加载
